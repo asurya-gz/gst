@@ -25,11 +25,10 @@ const Header = ({ isLoaded }) => {
     { href: "/components/About", text: "About Us", delay: 0.2 },
     { href: "/components/OurService", text: "Our Services", delay: 0.3 },
     { href: "/components/Why", text: "Why Choose Us", delay: 0.4 },
-    { href: "/components/Founder", text: "Our Founder", delay: 0.5 },
     {
       href: "#",
       text: "Contact Us",
-      delay: 0.6,
+      delay: 0.5,
       onClick: handleWhatsAppClick,
     },
   ];

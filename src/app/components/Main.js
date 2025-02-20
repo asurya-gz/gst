@@ -45,7 +45,7 @@ const Main = ({ isLoaded }) => {
               bisnis Anda tumbuh dan berkembang di era digital.
             </p>
             <div className="flex space-x-4">
-              <Link href="/services">
+              <Link href="/components/OurService">
                 <button
                   className="px-6 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105"
                   style={{ backgroundColor: "#A9E1E2", color: "#04092F" }}

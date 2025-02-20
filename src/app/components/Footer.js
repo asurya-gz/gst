@@ -26,12 +26,12 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="mailto:info@georgysolusi.com"
+                href="mailto:contact@georgysolusidigital.com"
                 className="flex items-center text-sm"
                 style={{ color: "#A9E1E2" }}
               >
                 <Mail className="h-4 w-4 mr-2" />
-                info@georgysolusi.com
+                contact@georgysolusidigital.com
               </a>
             </div>
           </div>
