@@ -101,13 +101,8 @@ const Footer = () => {
               Get in Touch
             </h5>
             <div className="mb-6">
-              <p className="text-sm mb-2" style={{ color: "#F4F5FB" }}>
-                Villa Estetika 11-12A
-                <br />
-                Yogyakarta, Indonesia
-              </p>
               <p className="text-sm" style={{ color: "#A9E1E2" }}>
-                Phone: +628179350817
+                Phone: +6281393507765
               </p>
             </div>
             <div className="flex space-x-4">

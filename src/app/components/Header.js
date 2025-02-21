@@ -1,11 +1,12 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 
 const Header = ({ isLoaded }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const phoneNumber = "628179350817";
+  const phoneNumber = "6281393507765 ";
   const message = "Hello, I would like to know more about your services";
 
   const handleWhatsAppClick = (e) => {
@@ -43,7 +44,21 @@ const Header = ({ isLoaded }) => {
     >
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/">
-          <div className="flex items-center cursor-pointer">
+          <div className="flex items-center cursor-pointer space-x-2">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: isLoaded ? 1 : 0, x: isLoaded ? 0 : -20 }}
+              transition={{ duration: 0.5 }}
+            >
+              <Image
+                src="/logo.png"
+                alt="Company Logo"
+                width={40}
+                height={40}
+                className="object-contain"
+                priority
+              />
+            </motion.div>
             <motion.div
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: isLoaded ? 1 : 0, x: isLoaded ? 0 : -20 }}

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Main = ({ isLoaded }) => {
-  const phoneNumber = "628179350817";
+  const phoneNumber = "6281393507765 ";
   const message =
     "Halo, saya ingin mengetahui lebih lanjut tentang layanan Anda.";
 
