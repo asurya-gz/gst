@@ -2,7 +2,7 @@
 import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "6281393507765 ";
+  const phoneNumber = "6281315468631"; // Updated to new number without spaces
   const message =
     "Halo, saya ingin mengetahui lebih lanjut tentang layanan Anda.";
 

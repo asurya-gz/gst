@@ -3,7 +3,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Main = ({ isLoaded }) => {
-  const phoneNumber = "6281393507765 ";
+  const phoneNumber = "6281315468631"; // Updated WhatsApp number
   const message =
     "Halo, saya ingin mengetahui lebih lanjut tentang layanan Anda.";
 

@@ -102,7 +102,14 @@ const Footer = () => {
             </h5>
             <div className="mb-6">
               <p className="text-sm" style={{ color: "#A9E1E2" }}>
-                Phone: +6281393507765
+                Phone: 0813-1546-8631
+              </p>
+              <p className="text-sm mt-2" style={{ color: "#A9E1E2" }}>
+                Plaza Aminta Lantai 5/504
+                <br />
+                Jalan Let. Jen. TB Simatupang Kav.10
+                <br />
+                Kota Jakarta Selatan 12310
               </p>
             </div>
             <div className="flex space-x-4">

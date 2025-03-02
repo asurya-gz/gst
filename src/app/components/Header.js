@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Header = ({ isLoaded }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const phoneNumber = "6281393507765 ";
+  const phoneNumber = "6281315468631"; // Updated WhatsApp number
   const message = "Hello, I would like to know more about your services";
 
   const handleWhatsAppClick = (e) => {
